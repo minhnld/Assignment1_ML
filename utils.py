@@ -102,4 +102,3 @@ def plotDecisionBoundary(plotData, theta, X, y):
         # Plot z = 0
         pyplot.contour(u, v, z, levels=[0], linewidths=2, colors='g')
         pyplot.contourf(u, v, z, levels=[np.min(z), 0, np.max(z)], cmap='Greens', alpha=0.4)
-
